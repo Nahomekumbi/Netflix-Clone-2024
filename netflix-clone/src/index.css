@@ -1,12 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
-:root{
-  --font-base: 'Lexend',sans-serif;;
-  --font-second-base: 'inter',sans-serif;
+
+
+
+
+:root {
+  --font-base: "Lexend", sans-serif;
+  --font-second-base: 'Inter', sans-serif;
   --bg-color:#111;
-  --primary-color:#fffffff;
+  --primary-color:#ffffff;
   --secondary-color:#e50914;
 }
+
 Body {
 background-color: #111;
 }
