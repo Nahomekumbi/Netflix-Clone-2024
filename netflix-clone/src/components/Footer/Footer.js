@@ -1,44 +1,94 @@
-import React from 'react'
-import "./Footer.css"
+import React from "react";
+import "./Footer.css";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import TwitterIcon from "@mui/icons-material/Twitter";
 const Footer = () => {
   return (
     <div className="footer_outer_container">
       <div className="footer_inner_container">
         <div className="footer_icons">
-          <FacebookOutlinedIcon/>
+          <a className="icon_links" href="https://www.facebook.com/netflix" >
+            {" "}
+            <FacebookOutlinedIcon />
+          </a>
+          <a className="icon_links" href="https://www.instagram.com/netflix/" >
             <InstagramIcon />
+          </a>
+          <a className="icon_links" href="https://twitter.com/netflix">
+            {" "}
+            <TwitterIcon />{" "}
+          </a>
+          <a className="icon_links" href="https://www.youtube.com/netflix">
             <YouTubeIcon />
+          </a>
         </div>
+
         <div className="footer_data">
           <div>
             <ul>
-              <li>Audio Description</li>
-              <li>Investor Relations</li>
-              <li>Legal Notice</li>
+              <li>
+                {" "}
+                <a href="https://www.netflix.com/browse/audio-description">
+                  Audio Description
+                </a>
+              </li>
+              <li>
+                <a href="https://ir.netflix.net/ir-overview/profile/default.aspx">
+                  Investor Relations
+                </a>
+              </li>
+              <li>
+                <a href="https://help.netflix.com/legal/notices">
+                  Legal Notice
+                </a>{" "}
+              </li>
             </ul>
           </div>
           <div>
             <ul>
-              <li>Help Center</li>
-              <li>Jobs</li>
-              <li>Cookie Preference</li>
+              <li>
+                <a href="https://help.netflix.com/en/">Help Center</a>
+              </li>
+              <li>
+                <a href="https://jobs.netflix.com/">Jobs</a>
+              </li>
+              <li>
+                <a href="https://help.netflix.com/legal/privacy#cookies">
+                  Cookie Preference
+                </a>
+              </li>
             </ul>
           </div>
           <div>
             <ul>
-              <li>Gift Card</li>
-              <li>Terms of Use</li>
-              <li>Corporate Information</li>
+              <li>
+                <a href="https://www.netflix.com/redeem">Gift Card</a>
+              </li>
+              <li>
+                <a href="https://help.netflix.com/legal/termsofuse">
+                  Terms of Use
+                </a>
+              </li>
+              <li>
+                <a href="https://help.netflix.com/en/node/134094">
+                  Corporate Information
+                </a>
+              </li>
             </ul>
           </div>
           <div>
             <ul>
-              <li>Media Center</li>
-              <li>Privacy</li>
-              <li>Contact Us</li>
+              <li>
+                <a href="https://media.netflix.com/en/">Media Center</a>
+              </li>
+              <li>
+                <a href="https://help.netflix.com/legal/privacy">Privacy</a>
+              </li>
+              <li>
+                <a href="https://help.netflix.com/en/contactus">Contact Us</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -49,9 +99,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Footer
-
-
-
+export default Footer;

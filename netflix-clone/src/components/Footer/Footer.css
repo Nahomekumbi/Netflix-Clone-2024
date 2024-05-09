@@ -16,9 +16,24 @@
     margin-left: 10px;
     color: #fff;
 }
+.footer_data a {
+    text-decoration: none;
+    color: grey;
+    list-style: none;
+}
+.footer_icons a {
+    text-decoration: none;
+    color: grey;
+    list-style: none;
+}
+
 .footer_data {
     display: flex;
     justify-content: space-between;
+}
+.footer_data a:hover{
+    text-decoration: underline; 
+  color: grey; 
 }
 .footer_data ul {
     list-style: none;
@@ -44,4 +59,5 @@
     font-style: 12px;
     margin-bottom: 10px;
 }
+
 

@@ -1,13 +1,13 @@
 import React from 'react'
-import Heade from '../../components/Heade/Heade'
 import Footer from '../../components/Footer/Footer'
 import Banner from '../../components/Banner/Banner'
 import RowList from '../../components/Rows/RowList/RowList'
+import Header from '../../components/Header/Header'
 
 const Home = () => {
   return (
     <div>
-        <Heade/>
+        <Header/>
         <Banner/>
         <RowList/>
         <Footer/>

@@ -4,8 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(20, 20, 20);
-/* background-color: transparent; */
+    /* background-color: rgb(148, 132, 132); */
+    /* background-color: grb(20,20,20); */
+background-color: transparent;
 height: 10vh;
 color: white;
 transition: all 0.5s;
@@ -22,7 +23,13 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
+.header_left a{
+    
+    text-decoration: none;
+    color: grey;
+    list-style: none;
 
+}
 .header_left ul {
     width: 140%;
     display: flex;
@@ -49,4 +56,9 @@ align-items: center;
 list-style-type: none; 
   padding: 0;
   margin: 0;
+}
+.header_outer_container a
+ {
+    text-decoration: none;
+    color: white;
 }
