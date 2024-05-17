@@ -5,6 +5,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import NavSection from "./NavSection";
 
 const Header = () => {
   const [show, handleShow] = useState(false);
@@ -19,6 +20,9 @@ const Header = () => {
     <>
       <div className={`header_outer_container ${show && "nav_black"}`}>
         <div className="header_container">
+          <div className="browse">
+            <NavSection/>
+          </div>
           <div className="header_left">
             <ul>
               <li>

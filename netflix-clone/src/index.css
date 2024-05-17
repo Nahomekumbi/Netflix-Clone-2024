@@ -2,8 +2,8 @@
 @import url("bootstrap/dist/css/bootstrap.min.css");
 
 :root{
-  --font-base: 'Lexen Deca', sans-serif;
-  --font-secondary: 'Inter', sans-serif;
+  --font-base: 'Lexen Deca', serif;
+  --font-secondary: 'Inter', serif;
   --bg-color: #141414
   --primary-color: #fffffff;
   --secondary-color: #e50914;
